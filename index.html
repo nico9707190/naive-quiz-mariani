@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        let punteggio = 0;
+        let risposta1;
+        risposta1 = prompt("Domanda 1: Qual è la capitale del Brasile? ")
+        while (risposta1===null){
+            risposta1 = prompt("Domanda 1: Qual è la capitale del Brasile? ")
+        }
+        if (risposta1.toLowerCase === "brasilia"){
+            punteggio = punteggio + 1;
+        }
+        
+        let risposta2;
+        risposta2 = prompt("Domanda 2: Qual è la capitale del Giappone? ")
+        while (risposta2===null){
+            risposta2 = prompt("Domanda 2: Qual è la capitale del Giappone? ")
+        }
+        if (risposta2.toLowerCase === "tokyo"){
+            punteggio = punteggio + 1;
+        }
+        
+        let risposta3;
+        risposta3 = prompt("Domanda 3: Come si chiama l'attuale presidente della Repubblica Italiana? ")
+        while (risposta3 ===null){
+            risposta3 = prompt("Domanda 3: Come si chiama l'attuale presidente della Repubblica Italiana? ")
+        }
+  
+        if (risposta3.toLowerCase === "mattarella"){
+            punteggio = punteggio + 1;
+        }
+        
+        let risposta4;
+        risposta4 = prompt("Domanda 4: Qual è il capoluogo della Calabria? ")
+        while (risposta4 ===null){
+            risposta4 = prompt("Domanda 4: Qual è il capoluogo della Calabria? ")
+        }
+  
+        if (risposta4.toLowerCase === "catanzaro"){
+            punteggio = punteggio + 1;
+        }
+
+        let risposta5;
+        risposta5 = prompt("Domanda 5: Qual è il capoluogo del Friuli Venezia Giulia? ")
+        while (risposta5 ===null){
+            risposta5 = prompt("Domanda 5: Qual è il capoluogo del Friuli Venezia Giulia? ")
+        }
+  
+        if (risposta5.toLowerCase === "trieste"){
+            punteggio = punteggio + 1;
+        }
+        
+        alert("Risultato finale = " + punteggio + "/5");
+        
+        
+    </script>
+</body>
+</html>
